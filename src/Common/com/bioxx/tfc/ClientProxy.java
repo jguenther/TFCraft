@@ -183,6 +183,7 @@ public class ClientProxy extends CommonProxy
 		ClientRegistry.registerTileEntity(TEGrill.class, "GrillTESR", new TESRGrill());
 		ClientRegistry.registerTileEntity(TESmokeRack.class, "SmokeRackTESR", new TESRSmokeRack());
 		ClientRegistry.registerTileEntity(TEHopper.class, "HopperTESR", new TESRHopper());
+		ClientRegistry.registerTileEntity(TECrucible.class, "Crucible");
 	}
 
 	@Override
